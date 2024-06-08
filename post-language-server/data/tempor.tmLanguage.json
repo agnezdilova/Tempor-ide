@@ -1,0 +1,50 @@
+{
+	"name": "tempor",
+	"scopeName": "source.tempor",
+	"fileTypes": [
+		"tempor"
+	],
+	"patterns": [
+		{
+			"name": "constant.numeric.decimal",
+			"match": "\\b[0-9]+(?:.[0-9]+)?\\b"
+		},
+		{
+			"name": "constant.numeric.hexadecimal",
+			"match": "\\b0x[0-9a-fA-F]+\\b"
+		},
+		{
+			"name": "constant.numeric.bool",
+			"match": "\\b(?:TRUE|FALSE)\\b"
+		},
+		{
+			"name": "keyword.other.tempor",
+			"match": "\\b(?:SENTENCE|END_SENTENCE|REQUIREMENT|END_REQUIREMENT)\\b"
+		},
+		{
+			"name": "keyword.other.tempor",
+			"match": "\\b(?:BOOL|INT)\\b"
+		},
+		{
+			"name": "keyword.other.tempor",
+			"match": "\\b(?:VAR_INPUT|VAR_OUTPUT|END_VAR|CONSTANT)\\b"
+		},
+		{
+			"name": "keyword.other.tempor",
+			"match": "\\b(?:NOT|FE|RE|HIGH|LOW|TAU|XOR|NOT|OR)\\b"
+		},
+		{
+			"name": "keyword.other.tempor",
+			"match": "\\b(?:After|after|Always|always|should|remain|valid|until|either|or|Reaction|reaction|is|which|must|occur|immidiately|from)\\b"
+		},
+		{
+			"name": "comment.line.double-slash.tempor",
+			"match": "\\s*//.*$"
+		},
+		{
+			"name": "comment.block.tempor",
+			"begin": "(?:/|\\()\\*",
+			"end": "\\*(?:/|\\))"
+		}
+	]
+}

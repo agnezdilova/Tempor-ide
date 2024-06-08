@@ -1,0 +1,1 @@
+{"version":3,"file":"language-server-backend-module.js","sourceRoot":"","sources":["../../src/node/language-server-backend-module.ts"],"names":[],"mappings":";;AAAA,uCAA4C;AAC5C,kDAAuE;AACvE,yFAAqF;AAErF,kBAAe,IAAI,2BAAe,CAAC,UAAA,IAAI;IACnC,IAAI,CAAC,iCAA0B,CAAC,CAAC,EAAE,CAAC,kEAA8B,CAAC,CAAC,gBAAgB,CAAC;AACzF,CAAC,CAAC,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"dsm-parameter.d.ts","sourceRoot":"","sources":["../../src/browser/dsm-parameter.ts"],"names":[],"mappings":"AAAA,qBAAa,YAAY;IACT,QAAQ,CAAC,IAAI,EAAE,MAAM;IAAE,QAAQ,CAAC,IAAI,EAAE,gBAAgB;gBAA7C,IAAI,EAAE,MAAM,EAAW,IAAI,EAAE,gBAAgB;CACrE;AAED,0BAAkB,gBAAgB;IAC9B,MAAM,WAAW;IACjB,MAAM,WAAW;IACjB,OAAO,YAAY;CACtB"}
